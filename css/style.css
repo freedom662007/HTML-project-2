@@ -49,12 +49,17 @@
   font-weight: 600;
   font-size: 24px;
 }
-.main-section__left__contacts .material-symbols-outlined {
+.main-section__left__contacts .contact-icon {
   margin-right: 5%;
   color: #f6fcfc;
-  font-size: 28px;
+  font-size: 22px;
 }
 .main-section__left__contacts .phone {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+.main-section__left__contacts .telegram {
   display: flex;
   flex-direction: row;
   margin-bottom: 5%;
@@ -258,6 +263,17 @@
   border: 2px solid #166866;
   border-radius: 10px;
   padding: 0.5em;
+}
+.main-section__right__instruments .instruments__content__list .content-container {
+  width: 60%;
+  display: flex;
+  justify-content: end;
+}
+.main-section__right__instruments .instruments__content__list .content-container .content {
+  margin-right: 2%;
+}
+.main-section__right__instruments .instruments__content__list .content-container .content:last-child {
+  margin-right: 0;
 }
 .main-section__right__portfolio {
   padding-top: 2%;
