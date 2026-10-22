@@ -403,7 +403,7 @@
 }
 @media (max-width: 767px) {
   .main-section {
-    width: 425px;
+    width: 375px;
     display: flex;
     flex-direction: column;
   }
